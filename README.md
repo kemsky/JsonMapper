@@ -8,7 +8,7 @@ also can fall back to pure ActionScript JSON parser [implementation](https://git
 
 Usage
 
-1. Place annotations (`Serialized(required=true/false)` and `ArrayElementType("type")`):
+1. Put annotations (`Serialized(required=true/false)` and `ArrayElementType("type")`):
     ```ActionScript
         public class JsonVO
         {
