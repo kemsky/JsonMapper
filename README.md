@@ -8,12 +8,8 @@ also can fall back to pure ActionScript JSON parser [implementation](https://git
 
 Usage
 
-1. Place annotations (Serialized(required=true/false) and ArrayElementType("type")):
+1. Place annotations (`Serialized(required=true/false)` and `ArrayElementType("type")`):
     ```ActionScript
-    package converter.rest.vo
-    {
-        import mx.collections.ArrayCollection;
-    
         public class JsonVO
         {
             [Serialized(required="true")]
@@ -54,5 +50,14 @@ Usage
             [ArrayElementType("int")]
             public var aCollection:ArrayCollection = new ArrayCollection([1, 2, 3]);
         }
-    }
     ```
+2. Map entity:
+    ```ActionScript
+    var mapper:JsonMapper = new JsonMapper();
+    mapper.registerClass(JsonVO);
+    ```
+2. Decode JSON:
+    ```ActionScript
+    var result:JsonVO = new JsonDecoder(mapper).decode(message, JsonVO);
+    ```
+    
