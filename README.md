@@ -57,7 +57,7 @@ Usage
         var mapper:JsonMapper = new JsonMapper();
         mapper.registerClass(JsonVO);
     ```
-2. Decode JSON:
+3. Decode JSON:
 
     ```ActionScript
         var result:JsonVO = new JsonDecoder(mapper).decode(message, JsonVO);
