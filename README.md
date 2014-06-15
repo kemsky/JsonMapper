@@ -63,3 +63,5 @@ Usage
         var result:JsonVO = new JsonDecoder(mapper).decode(message, JsonVO);
     ```
     
+You can add metadata validation to Intellij Idea using KnownMetaData.dtd file.
+Open `Preferences > Schemas and DTDs > Add` KnownMetaData.dtd with URI `urn:Flex:Meta`.
