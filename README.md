@@ -8,7 +8,7 @@ also can fall back to pure ActionScript JSON parser [implementation](https://git
 
 Usage
 
-1. Mapping example:
+1. Place annotations (Serialized(required=true/false) and ArrayElementType("type")):
     ```ActionScript
     package converter.rest.vo
     {
