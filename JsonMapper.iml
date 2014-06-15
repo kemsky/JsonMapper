@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="JsonMapper">
+    <configurations>
+      <configuration name="JsonMapper" output-type="Library" output-file="JsonMapper.swc" output-folder="$MODULE_DIR$/bin">
+        <dependencies target-player="14.0">
+          <entries>
+            <entry library-id="ef1b097c-07c6-4258-92ac-3f4d027b5398">
+              <dependency linkage="Test" />
+            </entry>
+            <entry library-id="1a49c2b6-8b4d-4444-b78b-118ea3b355d4">
+              <dependency linkage="External" />
+            </entry>
+          </entries>
+          <sdk name="air14_4.12.1" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/testSrc" isTestSource="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="air14_4.12.1" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="ef1b097c-07c6-4258-92ac-3f4d027b5398" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/flexunit.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="1a49c2b6-8b4d-4444-b78b-118ea3b355d4" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/RObject.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
