@@ -52,12 +52,14 @@ Usage
         }
     ```
 2. Map entity:
+
     ```ActionScript
-    var mapper:JsonMapper = new JsonMapper();
-    mapper.registerClass(JsonVO);
+        var mapper:JsonMapper = new JsonMapper();
+        mapper.registerClass(JsonVO);
     ```
 2. Decode JSON:
+
     ```ActionScript
-    var result:JsonVO = new JsonDecoder(mapper).decode(message, JsonVO);
+        var result:JsonVO = new JsonDecoder(mapper).decode(message, JsonVO);
     ```
     
