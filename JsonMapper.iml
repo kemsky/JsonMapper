@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="JsonMapper">
     <configurations>
-      <configuration name="JsonMapper" output-type="Library" output-file="JsonMapper.swc" output-folder="$MODULE_DIR$/bin">
+      <configuration name="JsonMapper" output-type="Library" output-file="JsonMapper_1.0.1.swc" output-folder="$MODULE_DIR$/bin">
         <dependencies target-player="14.0">
           <entries>
             <entry library-id="ef1b097c-07c6-4258-92ac-3f4d027b5398">
