@@ -71,7 +71,7 @@ package converter.rest
 
             var cls:JsonObject = mapper.getClass(JsonVO);
 
-            assertEquals(12, cls.properties.length);
+            assertEquals(11, cls.properties.length);
 
 
             var property:JsonObjectProperty = cls.propertiesMap["id"];
